@@ -1,8 +1,4 @@
-# ========================================
-# README.md
-# ========================================
 
-"""
 # Transportation Demand Forecasting System
 
 A comprehensive machine learning system for predicting transportation demand using LSTM networks, time-series analysis, and external regressors.
@@ -107,4 +103,4 @@ uvicorn src.api.main:app --reload
 - `POST /batch_predict` - Batch predictions
 - `GET /model_info` - Model metadata
 - `GET /health` - Health check
-"""
+
